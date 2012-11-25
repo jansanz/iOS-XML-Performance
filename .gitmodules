@@ -1,0 +1,18 @@
+[submodule "Parsers/RaptureXML"]
+	path = Parsers/RaptureXML
+	url = https://github.com/ZaBlanc/RaptureXML
+[submodule "Parsers/TouchXML"]
+	path = Parsers/TouchXML
+	url = https://github.com/TouchCode/TouchXML.git
+[submodule "Parsers/KissXML"]
+	path = Parsers/KissXML
+	url = https://github.com/robbiehanson/KissXML.git
+[submodule "Parsers/tinyxml2"]
+	path = Parsers/tinyxml2
+	url = https://github.com/leethomason/tinyxml2.git
+[submodule "Parsers/tinyxml"]
+	path = Parsers/tinyxml
+	url = https://github.com/leethomason/tinyxml2.git
+[submodule "Parsers/TBXML"]
+	path = Parsers/TBXML
+	url = https://github.com/71squared/TBXML.git
