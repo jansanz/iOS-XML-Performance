@@ -13,5 +13,6 @@
 @property (strong, nonatomic) NSArray *selectedLibraries;
 @property (copy, nonatomic) NSString *selectedFile;
 @property (assign, nonatomic) NSInteger repeats;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end

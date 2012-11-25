@@ -20,6 +20,18 @@
 		988FF1F4166193B100B2E418 /* JSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 988FF1F2166193B100B2E418 /* JSViewController_iPhone.xib */; };
 		988FF2001661968C00B2E418 /* JSResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988FF1FE1661968C00B2E418 /* JSResultsViewController.m */; };
 		988FF2031661CED600B2E418 /* JSResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 988FF2021661CED600B2E418 /* JSResultsViewController.xib */; };
+		988FF20B1661DD2C00B2E418 /* dream.xml in Resources */ = {isa = PBXBuildFile; fileRef = 988FF2091661DD2C00B2E418 /* dream.xml */; };
+		988FF20C1661DD2C00B2E418 /* utf8test.xml in Resources */ = {isa = PBXBuildFile; fileRef = 988FF20A1661DD2C00B2E418 /* utf8test.xml */; };
+		988FF2111661DD8400B2E418 /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 988FF2101661DD8400B2E418 /* RXMLElement.m */; };
+		988FF2131661DDA500B2E418 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 988FF2121661DDA500B2E418 /* libxml2.dylib */; };
+		988FF2171661E1CD00B2E418 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 988FF2161661E1CD00B2E418 /* MBProgressHUD.m */; };
+		988FF2191661E2D200B2E418 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 988FF2181661E2D200B2E418 /* libz.dylib */; };
+		988FF21D1661E5E300B2E418 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 988FF21C1661E5E300B2E418 /* TBXML.m */; };
+		988FF22E1661EB1600B2E418 /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 988FF2211661EB1600B2E418 /* DDXMLElementAdditions.m */; };
+		988FF22F1661EB1600B2E418 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 988FF2241661EB1600B2E418 /* NSString+DDXML.m */; };
+		988FF2301661EB1600B2E418 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 988FF2271661EB1600B2E418 /* DDXMLDocument.m */; };
+		988FF2311661EB1600B2E418 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 988FF2291661EB1600B2E418 /* DDXMLElement.m */; };
+		988FF2321661EB1600B2E418 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 988FF22B1661EB1600B2E418 /* DDXMLNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +54,28 @@
 		988FF1FD1661968C00B2E418 /* JSResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSResultsViewController.h; sourceTree = "<group>"; };
 		988FF1FE1661968C00B2E418 /* JSResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSResultsViewController.m; sourceTree = "<group>"; };
 		988FF2021661CED600B2E418 /* JSResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSResultsViewController.xib; sourceTree = "<group>"; };
+		988FF2091661DD2C00B2E418 /* dream.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dream.xml; sourceTree = "<group>"; };
+		988FF20A1661DD2C00B2E418 /* utf8test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = utf8test.xml; sourceTree = "<group>"; };
+		988FF20F1661DD8400B2E418 /* RXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXMLElement.h; sourceTree = "<group>"; };
+		988FF2101661DD8400B2E418 /* RXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXMLElement.m; sourceTree = "<group>"; };
+		988FF2121661DDA500B2E418 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		988FF2151661E1CD00B2E418 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		988FF2161661E1CD00B2E418 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		988FF2181661E2D200B2E418 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		988FF21B1661E5D400B2E418 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBXML.h; path = "Parsers/TBXML/TBXML-Headers/TBXML.h"; sourceTree = "<group>"; };
+		988FF21C1661E5E300B2E418 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBXML.m; path = "Parsers/TBXML/TBXML-Code/TBXML.m"; sourceTree = "<group>"; };
+		988FF2201661EB1600B2E418 /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		988FF2211661EB1600B2E418 /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		988FF2231661EB1600B2E418 /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
+		988FF2241661EB1600B2E418 /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
+		988FF2251661EB1600B2E418 /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDXML.h; path = Parsers/KissXML/KissXML/DDXML.h; sourceTree = "<group>"; };
+		988FF2261661EB1600B2E418 /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDXMLDocument.h; path = Parsers/KissXML/KissXML/DDXMLDocument.h; sourceTree = "<group>"; };
+		988FF2271661EB1600B2E418 /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDXMLDocument.m; path = Parsers/KissXML/KissXML/DDXMLDocument.m; sourceTree = "<group>"; };
+		988FF2281661EB1600B2E418 /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDXMLElement.h; path = Parsers/KissXML/KissXML/DDXMLElement.h; sourceTree = "<group>"; };
+		988FF2291661EB1600B2E418 /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDXMLElement.m; path = Parsers/KissXML/KissXML/DDXMLElement.m; sourceTree = "<group>"; };
+		988FF22A1661EB1600B2E418 /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDXMLNode.h; path = Parsers/KissXML/KissXML/DDXMLNode.h; sourceTree = "<group>"; };
+		988FF22B1661EB1600B2E418 /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDXMLNode.m; path = Parsers/KissXML/KissXML/DDXMLNode.m; sourceTree = "<group>"; };
+		988FF22D1661EB1600B2E418 /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				988FF2191661E2D200B2E418 /* libz.dylib in Frameworks */,
+				988FF2131661DDA500B2E418 /* libxml2.dylib in Frameworks */,
 				988FF1D8166193B100B2E418 /* UIKit.framework in Frameworks */,
 				988FF1DA166193B100B2E418 /* Foundation.framework in Frameworks */,
 				988FF1DC166193B100B2E418 /* CoreGraphics.framework in Frameworks */,
@@ -61,6 +97,9 @@
 		988FF1C8166193B100B2E418 = {
 			isa = PBXGroup;
 			children = (
+				988FF2141661E1CD00B2E418 /* External */,
+				988FF20D1661DD3800B2E418 /* ParserLibraries */,
+				988FF2081661DD2C00B2E418 /* Tests */,
 				988FF1DD166193B100B2E418 /* XMLBenchmarks */,
 				988FF1D6166193B100B2E418 /* Frameworks */,
 				988FF1D4166193B100B2E418 /* Products */,
@@ -78,6 +117,8 @@
 		988FF1D6166193B100B2E418 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				988FF2181661E2D200B2E418 /* libz.dylib */,
+				988FF2121661DDA500B2E418 /* libxml2.dylib */,
 				988FF1D7166193B100B2E418 /* UIKit.framework */,
 				988FF1D9166193B100B2E418 /* Foundation.framework */,
 				988FF1DB166193B100B2E418 /* CoreGraphics.framework */,
@@ -113,6 +154,99 @@
 				988FF1ED166193B100B2E418 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		988FF2081661DD2C00B2E418 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				988FF2091661DD2C00B2E418 /* dream.xml */,
+				988FF20A1661DD2C00B2E418 /* utf8test.xml */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		988FF20D1661DD3800B2E418 /* ParserLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				988FF21E1661EAD700B2E418 /* KissXML */,
+				988FF21A1661E5C100B2E418 /* TBXML */,
+				988FF20E1661DD8400B2E418 /* RaptureXML */,
+			);
+			name = ParserLibraries;
+			sourceTree = "<group>";
+		};
+		988FF20E1661DD8400B2E418 /* RaptureXML */ = {
+			isa = PBXGroup;
+			children = (
+				988FF20F1661DD8400B2E418 /* RXMLElement.h */,
+				988FF2101661DD8400B2E418 /* RXMLElement.m */,
+			);
+			name = RaptureXML;
+			path = Parsers/RaptureXML/RaptureXML;
+			sourceTree = "<group>";
+		};
+		988FF2141661E1CD00B2E418 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				988FF2151661E1CD00B2E418 /* MBProgressHUD.h */,
+				988FF2161661E1CD00B2E418 /* MBProgressHUD.m */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		988FF21A1661E5C100B2E418 /* TBXML */ = {
+			isa = PBXGroup;
+			children = (
+				988FF21C1661E5E300B2E418 /* TBXML.m */,
+				988FF21B1661E5D400B2E418 /* TBXML.h */,
+			);
+			name = TBXML;
+			sourceTree = "<group>";
+		};
+		988FF21E1661EAD700B2E418 /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				988FF21F1661EB1600B2E418 /* Additions */,
+				988FF2221661EB1600B2E418 /* Categories */,
+				988FF2251661EB1600B2E418 /* DDXML.h */,
+				988FF2261661EB1600B2E418 /* DDXMLDocument.h */,
+				988FF2271661EB1600B2E418 /* DDXMLDocument.m */,
+				988FF2281661EB1600B2E418 /* DDXMLElement.h */,
+				988FF2291661EB1600B2E418 /* DDXMLElement.m */,
+				988FF22A1661EB1600B2E418 /* DDXMLNode.h */,
+				988FF22B1661EB1600B2E418 /* DDXMLNode.m */,
+				988FF22C1661EB1600B2E418 /* Private */,
+			);
+			name = KissXML;
+			sourceTree = "<group>";
+		};
+		988FF21F1661EB1600B2E418 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				988FF2201661EB1600B2E418 /* DDXMLElementAdditions.h */,
+				988FF2211661EB1600B2E418 /* DDXMLElementAdditions.m */,
+			);
+			name = Additions;
+			path = Parsers/KissXML/KissXML/Additions;
+			sourceTree = "<group>";
+		};
+		988FF2221661EB1600B2E418 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				988FF2231661EB1600B2E418 /* NSString+DDXML.h */,
+				988FF2241661EB1600B2E418 /* NSString+DDXML.m */,
+			);
+			name = Categories;
+			path = Parsers/KissXML/KissXML/Categories;
+			sourceTree = "<group>";
+		};
+		988FF22C1661EB1600B2E418 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				988FF22D1661EB1600B2E418 /* DDXMLPrivate.h */,
+			);
+			name = Private;
+			path = Parsers/KissXML/KissXML/Private;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +307,8 @@
 				988FF1EE166193B100B2E418 /* Default-568h@2x.png in Resources */,
 				988FF1F4166193B100B2E418 /* JSViewController_iPhone.xib in Resources */,
 				988FF2031661CED600B2E418 /* JSResultsViewController.xib in Resources */,
+				988FF20B1661DD2C00B2E418 /* dream.xml in Resources */,
+				988FF20C1661DD2C00B2E418 /* utf8test.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +323,14 @@
 				988FF1E8166193B100B2E418 /* JSAppDelegate.m in Sources */,
 				988FF1F1166193B100B2E418 /* JSViewController.m in Sources */,
 				988FF2001661968C00B2E418 /* JSResultsViewController.m in Sources */,
+				988FF2111661DD8400B2E418 /* RXMLElement.m in Sources */,
+				988FF2171661E1CD00B2E418 /* MBProgressHUD.m in Sources */,
+				988FF21D1661E5E300B2E418 /* TBXML.m in Sources */,
+				988FF22E1661EB1600B2E418 /* DDXMLElementAdditions.m in Sources */,
+				988FF22F1661EB1600B2E418 /* NSString+DDXML.m in Sources */,
+				988FF2301661EB1600B2E418 /* DDXMLDocument.m in Sources */,
+				988FF2311661EB1600B2E418 /* DDXMLElement.m in Sources */,
+				988FF2321661EB1600B2E418 /* DDXMLNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +413,14 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMLBenchmarks/XMLBenchmarks-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"ARC_ENABLED=1",
+				);
+				HEADER_SEARCH_PATHS = "\"$(SDK_DIR)\"/usr/include/libxml2";
 				INFOPLIST_FILE = "XMLBenchmarks/XMLBenchmarks-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -280,7 +431,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMLBenchmarks/XMLBenchmarks-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SDK_DIR)\"/usr/include/libxml2";
 				INFOPLIST_FILE = "XMLBenchmarks/XMLBenchmarks-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
