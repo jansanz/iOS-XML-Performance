@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JSViewController : UIViewController
+@interface JSViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end
