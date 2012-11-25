@@ -29,15 +29,15 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     self.libraries = [[NSMutableDictionary alloc] initWithDictionary:@{
-                      @"NSXMLParser" : @(NO),
-                      @"libxml2" : @(NO),
+//                      @"NSXMLParser" : @(NO),
+//                      @"libxml2" : @(NO),
                       @"TBXML" : @(NO),
                       @"KissXML" : @(NO),
                       @"RaptureXML" : @(NO),
-                      @"TouchXML" : @(NO),
-                      @"GDataXML" : @(NO),
-                      @"TinyXML2" : @(NO),
-                      @"TinyXML" : @(NO),
+//                      @"TouchXML" : @(NO),
+//                      @"GDataXML" : @(NO),
+//                      @"TinyXML2" : @(NO),
+//                      @"TinyXML" : @(NO),
                       }];
     
     self.files = [[NSArray alloc] initWithObjects:@"random.json", @"twitter_timeline.json", @"repeat.json", nil];
